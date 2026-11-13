@@ -289,6 +289,11 @@
         grid-template-columns: 1fr;
     }
 
+    .contact-map-full iframe {
+        height: 350px;
+        min-height: 350px;
+    }
+
     .contact-map-card iframe {
         min-height: 380px;
     }
@@ -523,6 +528,15 @@
 
     .director-info-below h3 {
         font-size: 1.65rem;
+    }
+
+    .contact-map-full {
+        margin-top: 24px;
+    }
+
+    .contact-map-full iframe {
+        height: 290px;
+        min-height: 290px;
     }
 
     .contact-map-card iframe {

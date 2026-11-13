@@ -211,10 +211,61 @@
                         </div>
                     </div>
 
-                    <!-- Office Location Map (Right Side) -->
-                    <div class="contact-map-card animate__animated animate__fadeInUp">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9031.103791756686!2d77.1140414!3d28.7064295!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d016cbf685877%3A0xd02478d4afbaf287!2sVPAY%20Advisory%20(OPC)%20Private%20Limited!5e1!3m2!1sen!2sin!4v1794463722524!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="VPAY Advisory (OPC) Private Limited Office Map"></iframe>
+                    <!-- Enquiry Form Card (Right Column) -->
+                    <div class="contact-form-card animate__animated animate__fadeInUp">
+                        <h3>Send Us An Enquiry</h3>
+                        <p class="form-subtitle">
+                            Fill in your details and requirements to connect directly with our advisory team via WhatsApp.
+                        </p>
+
+                        <form id="consultationForm" class="consultation-form">
+                            <div class="form-group">
+                                <label for="clientName">Full Name *</label>
+                                <input type="text" id="clientName" name="clientName" placeholder="Enter your full name" required>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="clientEmail">Email Address</label>
+                                    <input type="email" id="clientEmail" name="clientEmail" placeholder="you@company.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="clientPhone">Phone Number *</label>
+                                    <input type="tel" id="clientPhone" name="clientPhone" placeholder="+91 XXXXX XXXXX" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="serviceType">Services *</label>
+                                <select id="serviceType" name="serviceType" required>
+                                    <option value="">Select a service category</option>
+                                    <option value="Category A – GST Services">Category A – GST Services</option>
+                                    <option value="Category B – Income Tax Services">Category B – Income Tax Services</option>
+                                    <option value="Category C – Accounting & Financial Management Services">Category C – Accounting &amp; Financial Management Services</option>
+                                    <option value="Category D – Business Registration & Advisory Services">Category D – Business Registration &amp; Advisory Services</option>
+                                    <option value="Category E – Other Professional & Advisory Services">Category E – Other Professional &amp; Advisory Services</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="clientMessage">Message *</label>
+                                <textarea id="clientMessage" name="clientMessage" rows="4" placeholder="Briefly describe your tax, compliance, or registration requirement..." required></textarea>
+                            </div>
+
+                            <div class="form-actions">
+                                <button type="submit" class="btn-primary-gold btn-submit">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                    <span>Submit Enquiry on WhatsApp</span>
+                                </button>
+                            </div>
+                            <p class="form-feedback" id="formFeedback" aria-live="polite"></p>
+                        </form>
                     </div>
+                </div>
+
+                <!-- Office Location Map (Full Width Below) -->
+                <div class="contact-map-card contact-map-full animate__animated animate__fadeInUp">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9031.103791756686!2d77.1140414!3d28.7064295!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d016cbf685877%3A0xd02478d4afbaf287!2sVPAY%20Advisory%20(OPC)%20Private%20Limited!5e1!3m2!1sen!2sin!4v1794463722524!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="VPAY Advisory (OPC) Private Limited Office Map"></iframe>
                 </div>
             </div>
         </section>
