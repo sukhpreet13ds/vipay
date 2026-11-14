@@ -1644,6 +1644,96 @@ a.contact-item:hover {
     color: #94a3b8;
 }
 
+.footer-credits {
+    font-size: 0.85rem;
+    color: #94a3b8;
+}
+
+.footer-credits a {
+    color: var(--gold-400);
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.footer-credits a:hover {
+    color: var(--white);
+    text-decoration: underline;
+}
+
+.footer-legal-links {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer-legal-links a {
+    color: #cbd5e1;
+    font-size: 0.85rem;
+    transition: var(--transition);
+}
+
+.footer-legal-links a:hover {
+    color: var(--gold-400);
+}
+
+.footer-legal-sep {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+/* ==========================================================================
+   SIMPLE LEGAL / POLICY PAGE CONTENT
+   ========================================================================== */
+.legal-content-section {
+    background-color: var(--white);
+}
+
+.legal-content-wrap {
+    max-width: 900px;
+    margin: 0 auto;
+    color: var(--slate-700);
+    line-height: 1.8;
+}
+
+.legal-block {
+    margin-bottom: 32px;
+}
+
+.legal-block h2 {
+    font-family: var(--font-heading);
+    font-size: 1.45rem;
+    color: var(--navy-900);
+    margin-bottom: 12px;
+    border-bottom: 2px solid var(--gold-100);
+    padding-bottom: 6px;
+}
+
+.legal-block p {
+    margin-bottom: 12px;
+    font-size: 0.98rem;
+}
+
+.legal-block ul {
+    list-style: disc;
+    margin-left: 22px;
+    margin-bottom: 12px;
+}
+
+.legal-block ul li {
+    margin-bottom: 8px;
+    font-size: 0.96rem;
+}
+
+.legal-block strong {
+    color: var(--navy-900);
+}
+
+.legal-updated {
+    font-size: 0.88rem;
+    color: var(--slate-500);
+    font-style: italic;
+    margin-bottom: 26px;
+}
+
 .footer-bottom strong {
     color: var(--white);
 }
